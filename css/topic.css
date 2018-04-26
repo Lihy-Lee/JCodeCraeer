@@ -1,0 +1,173 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+#topic-content{
+	height: 800px;
+	background-color: #F0F0EE;
+}
+
+#topic-container{
+	background-color: #ffffff;
+	height: 100%;
+	margin-left: 7%;
+	margin-right:7%;
+}
+
+#container-left{
+	width: 75%;
+	/*background-color: #dddd00;/*背景颜色-测试左侧所有文章边框*/
+	display: block;
+	text-align: left;
+	float: left;
+}
+
+.psggroup{
+	margin-left: 15px;
+	margin-top: 15px;
+	height: 80px;
+	width: 100%;
+	/*background-color: #F0F0EE;/*背景颜色-测试每篇文章*/
+	display: inline-block;
+	border-bottom:1px solid #F0F0F0;
+}
+
+.passage{
+	float: left;
+	text-align:left;
+}
+
+img.psglogo{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.text a:hover{
+	color: #6C6C6C;
+}
+
+.text{
+	text-align: left;
+	margin-left: 10px;
+	float: left;
+	line-height: 22px;
+}
+
+.psgtitle{
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	color: #3C3C3C;
+	margin-left: 10px;
+}
+
+.writer{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-decoration: none;
+	color: #3C3C3C;
+	margin-left: 10px;
+}
+.psgtext{
+	font-size: 10px;
+	color: #8E8E8E;
+}
+
+a.psgtag{
+	font-size: 10px;
+	color: #3C3C3C;
+	font-family: "微软雅黑";
+	margin-left: 12px;
+	text-decoration: none;
+}
+a.psgtag:hover{
+	color: #FF0000;
+}
+
+#container-right{
+	
+}
+
+.container-rightbtn{
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.container-rightbtn a{
+	text-decoration: none;
+	background-color: #00BB00;
+	font-size: 16px;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 5px;
+	color: #ffffff;
+	display: block;
+	margin: auto;
+}
+.container-rightbtn a:hover{
+	background-color: #00DB00;
+}
+.make-topic{
+	width: 100px;
+	height: 
+}
+#right-text{
+	text-align: center;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+.right-text{
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+#psg-linking{
+	width: 240px;
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-top: 50px;
+	text-decoration: none;
+	float: left;
+	overflow-x: hidden;
+				/*background-color: #dddd00;/*test*/
+
+}
+
+.linking-img{
+	width: 60px;
+	height: 70px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	margin: auto;
+	float: left;
+}
+
+.linking-text{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "宋体";
+	line-height: 50px;
+	text-align: left;
+}
+
+
+img.link-logo{
+	width: 50px;
+	height: 50px;
+}
+
+a.link-text{
+	text-decoration: none;
+	text-align: center;
+}
+
+a.link-text:hover{
+	color: #FF0000;
+}

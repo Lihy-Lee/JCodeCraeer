@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#question-content{
+	height: 800px;
+	background-color: #F0F0EE;
+}
+
+#question-container{
+	background-color: #ffffff;
+	height: 100%;
+	margin-left: 7%;
+	margin-right:7%;
+}
+
+#container-left{
+	width: 75%;
+	/*background-color: #dddd00;/*背景颜色-测试左侧所有文章边框*/
+	display: block;
+	text-align: left;
+	float: left;
+}
+
+#container-nav{
+	margin-left: 15px;
+	margin-top: 15px;
+	height: 50px;
+	width: 100%;
+	display: block;
+	border-bottom:1px solid #F0F0F0; 
+	/*background-color: #F0F0EE;/*背景颜色-测试每篇文章*/
+	text-align: center;
+	float: left;
+}
+
+.container-nav{
+	text-decoration: none;
+	float: left;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #4F4F4F;
+}
+
+#container-nav a:hover,#container-nav a:visited{
+	border-bottom-color: #006000;
+}
+	

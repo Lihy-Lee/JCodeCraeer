@@ -1,0 +1,177 @@
+/*页首导航栏header-footer*/
+
+*{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+#header{
+	background-color: #3C3C3C;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	overflow-y: hidden;
+}
+
+.logo{
+	text-decoration: none;
+	margin-top: 5px;
+	width: 300px;
+	text-align: center;
+	float: left;
+}
+
+.logo-link-text{
+	text-decoration: none;
+	color: #d0d0d0;
+	line-height: 60px;
+	margin: 0px auto;
+}
+
+.main-nav{
+	width: 420px;
+	list-style: none;
+	display: block;
+	float: left;
+}
+
+.main-nav li{
+	text-align: center;
+	list-style-type: none;/*去掉圆点*/
+	padding: 0px;
+	display:inline;
+	float: left;
+}
+
+.main-nav a{
+	height: 60px;
+	width: 70px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.main-nav a:hover{
+	background-color: #6C6C6C; 
+}
+
+.header-nav-link{
+	text-decoration: none;
+	color: #d0d0d0;
+	margin: auto;
+	font-size: 16px;
+	line-height: 60px;
+}
+
+.app-search{
+	width: 400px;
+	text-align: right;
+	float: left;
+	margin: 8px auto;
+}
+
+.app-search a{
+	text-decoration: none;
+}
+
+.app-text{
+	font-size: 15px;
+	line-height: 50px;
+	color: #00EC00;
+	margin: auto;
+	margin-right: 10px;
+}
+
+img.phone-logo{
+	color: #00EC00;
+	width: 16px;
+	height: 16px;
+	margin: auto;
+	
+}
+
+#search{
+	width: 90px;
+	height: 25px;
+	background:url('../img/search.png') no-repeat 98% 38% ;/*搜索背景图案*/
+	background-color: #272727;
+	background-size: 20px 20px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 12px;
+	border-color:  #3C3C3C; /*搜索框边框颜色*/
+	border-radius: 18px; /*修改搜索边框弧度，改为椭圆形*/
+	float: right;
+	outline: none;
+}
+
+#search:focus{
+	width: 150px;
+	background-color: #FFFFFF;
+
+}
+
+.massage{
+	width: 200px;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+	margin-left: 5px;
+	display: block;
+}
+
+
+
+.msgbtn li{
+	text-align: center;
+	list-style-type: none;/*去掉圆点*/
+	padding: 0px;
+	display:inline-block;
+	float: left;
+}
+.msgbtn a{
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 16px;
+	color: #d0d0d0;
+	width: 50px;
+	height: 60px;
+	display: inline-block;
+	overflow-y: hidden;
+	margin: auto;
+
+}
+
+.msgbtn a:hover{
+	background: #6C6C6C;
+}
+
+
+/*footer*/
+#footer{
+	background-color: #3C3C3C;
+	width: 100%;
+	height: 120px;
+	float: left;
+	text-align: left;
+}
+
+.footer-left{
+	color: #ADADAD;
+	width: 400px;
+	font-size: 13px;
+	line-height: 35px;
+	margin-left: 100px;
+	float: left;
+}
+
+.footer-right{
+	width: 400px;
+	height: 120px;
+	color: #ADADAD;
+	font-size: 13px;
+	line-height: 35px;
+	margin-left: 200px;
+	float: left;
+}

@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+#about-content{
+	height: 600px;
+	background-color: #F0F0EE;
+}
+#about-container{
+	background-color: #ffffff;
+	height: 100%;
+	margin-left: 7%;
+	margin-right:7%;
+	text-align: left;
+}
+
+.about-text{
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	line-height: 25px;
+	color: #5B5B5B;
+}
+
+.title{
+	font-size: 18px;
+}
+
+.text{
+	font-size: 14px;
+}

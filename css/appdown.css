@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.appdown{
+	text-align: center;
+}
+
+#appscreen{
+	width: 400px;
+	margin-left: 8%;
+	margin-top: 9%;
+	float: left;
+}
+
+#appscreen img{
+	width: 75%;
+	height: 75%;
+	float: left;
+	margin: auto;
+}
+
+#appdown-right{
+	width: 400px;
+	float: left;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 100px;
+}
+.app-top{
+	text-align: center;
+	margin-left: 90px;
+}
+
+.logo{
+	text-align: center;
+}
+
+.logo img{
+	width: 20%;
+	height: 20%;
+	float: left;
+}
+
+.explain{
+	float: left;
+	margin-left: 20px;
+}
+
+#code-img{
+	width: 50%;
+	height: 50%;
+	margin-top: 20px;
+}
+
+.title{
+	font-size: 24px;
+	line-height: 50px;
+}
+.text{
+	color:#ADADAD;
+	line-height: 25px;
+}
+
+.choice{
+	text-align: center;
+	line-height: 50px;
+	display: block;
+}
+
+.choice a{
+	text-decoration: none;
+	list-style-type: none;
+	color: #ffffff;
+	margin: auto;
+	font-size: 18px;
+}
+
+.choice a:hover{
+	background-color: #00A600;
+}
+
+a.downloadbtn{
+	width: 200px;
+	height: 50px;
+	text-decoration: none;
+	border-radius: 15px;
+	display: inline-block;
+	margin: auto;
+	background-color: #009100;
+	margin-top: 15px;
+}
+
+
